@@ -1,0 +1,26 @@
+{
+  "name": "carenet-npm-slack",
+  "version": "1.0.0",
+  "description": "Command line tools to publish comments in slack (devops)",
+  "main": "index.js",
+  "bin": {
+    "crnt-slack-deploy-msg": "bin/crnt-slack-deploy-msg.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarenetLongevity/carenet-npm-slack.git"
+  },
+  "author": "Carenet Longevity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarenetLongevity/carenet-npm-slack/issues"
+  },
+  "homepage": "https://github.com/CarenetLongevity/carenet-npm-slack#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "slack-node": "^0.1.8"
+  }
+}
